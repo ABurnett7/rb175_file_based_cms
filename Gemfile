@@ -8,4 +8,6 @@ gem "webrick"
 gem "rack-test"
 gem "minitest"
 
+gem "redcarpet"
+
 ruby "3.2.2"
