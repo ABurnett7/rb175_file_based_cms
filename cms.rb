@@ -17,7 +17,7 @@ def data_path
   end
 end
 
-root = File.expand_path("..", __FILE__)
+# root = File.expand_path("..", __FILE__)
 
 def render_markdown(text)
   markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
@@ -31,7 +31,7 @@ def load_file_content(path)
     headers["Content-Type"] = "text/plain"
     content
   when ".md"
-    render_markdown(content)
+    erb render_markdown(content)
   end
 end
 
