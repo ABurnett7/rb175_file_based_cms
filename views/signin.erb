@@ -1,10 +1,14 @@
-
-<form class="inline" method="post" action="/users/signin">
-  <ul>
-    Username: <input name="user" placeholder="username" type="text" value="<%= session[:user] %>">
-  </ul>
-  <ul>
-    Password: <input name="password" placeholder="password" type="password" value="<%= session[:password] %>">
-  </ul>
-  <button type="submit">Sign in</button>
+<!-- views/signin.erb -->
+<form method="post" action="/users/signin">
+  <div>
+    <label for="username"> Username:
+      <input name="username" id="username" value="<%= params[:username] %>"/>
+    </label>
+  </div>
+  <div>
+    <label for="password"> Password:
+      <input type="password" id="password" name="password" />
+    </label>
+  </div>
+  <button type="submit">Sign In</button>
 </form>
