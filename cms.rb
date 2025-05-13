@@ -63,7 +63,7 @@ end
 post "/users/signout" do
   session.delete(:username)
   session[:message] = "You have been signed out."
-  redirect "/"
+  redirect "/users/signin"
 end
 
 get "/new" do
