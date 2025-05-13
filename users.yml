@@ -1,6 +1,6 @@
 {
-  admin: secret,
-  developer: letmein,
-  bill: billspassword,
-  sonia: soniaspassword
+  admin: $2a$12$57OdzXxFCjaG.SMAyU4mvufFboKtEc2jMdDaesB8ZfJUklm09OJnS,
+  developer: $2a$12$mbZU6wyiPo0bDMhPGiSn7e.jH4ccqLZN.6v861ghTyDUX5N2Bm0ly,
+  bill: $2a$12$Q1gnQuLl4Rrka2m3C/bUfewYSftf84Fef4croMENbinb82Dixl3b6,
+  sonia: $2a$12$j6R5Yzjf0.dvlLGDAdkZaObW749y0O1znfFB061f8R3NWFr7LnPYm
 }
