@@ -1,1 +1,3 @@
-Here is where we can write our about info.
+# About
+
+Put about info here.
